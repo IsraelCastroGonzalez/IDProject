@@ -6376,10 +6376,16 @@ th.hide-for-touch {
   height: 150px;
   content: url("http://2.bp.blogspot.com/_zubyiAl9JYg/TLZhZSPFKoI/AAAAAAAAABI/vdAtEOrzWXs/s1600/escudo_gdl.png");
 }
+#ad2{
+  width: 300px;
+  height: 200px;
+  content: url("http://24.media.tumblr.com/tumblr_lrzjg5o0O61r3dgmdo1_r1_500.gif");
+}
 
 /* unvisited link */
 a:link {
     color: #647378;
+    font-style: italic;
 }
 
 /* visited link */
