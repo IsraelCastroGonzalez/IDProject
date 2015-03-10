@@ -6142,7 +6142,7 @@ th.hide-for-touch {
 
 .accordion {
   width: 500px;
-  border-radius: 10px;
+  border-radius: 0px;
   overflow: hidden;
   margin: auto;
 }
@@ -6191,11 +6191,11 @@ th.hide-for-touch {
 
 .accordion .item .content {
   padding: 0px 20px;
-  background: #CDD627;
+  background: #665858;
   font-size: 14px;
   height:0;
   overflow:hidden;
-  color: #855D2E;
+  color: #F2EADF;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
@@ -6240,7 +6240,6 @@ th.hide-for-touch {
 .blue {
   background-color: #3291D1;  
 }
-
 
 .middle-blue {
   background-color: #1E577D;  
@@ -6309,19 +6308,102 @@ th.hide-for-touch {
 .dead-blue{
   background-color: #14AAE3; 
 }
-#espacioArriba{
-  margin-top: 50px;
+
+/*Imirie_house_2015*/
+.myBeats{
+  background-color: #B8B8B8;
+}
+
+.opaqueBlue{
+  background-color: #647378;
+}
+
+.doubleCream{
+  background-color: #F2EADF;
+}
+
+.repurposedBone{
+  background-color: #D0D0AD;
+}
+
+.doneDidIt{
+  background-color: #665858;
+}
+/*Soho City*/
+.sohoSteel{
+  background-color: #ABBDBB;
+}
+
+.sitUpon{
+  background-color: #BADDDB; 
+}
+
+.chromeWhite{
+  background-color: #EDF0D5;
+}
+
+.galleryWindow{
+  background-color: #12223D;
+}
+
+.ironic{
+  background-color: #858585;
 }
 
 #titulo{
-  color: #CDD627;
+  text-align: center;
+  color: #12223D;
   font-size: 36px;
+}
+
+#espacioArriba{
+  margin-top: 70px;
+}
+
+#espacioArriba{
+  margin-bottom: 100px;
+}
+
+.cuadrado{
+  width: 250px;
+  height: 150px;
+  background-color: #BADDDB;
+
+}
+
+#ad{
+  width: 150px;
+  height: 150px;
+  content: url("http://2.bp.blogspot.com/_zubyiAl9JYg/TLZhZSPFKoI/AAAAAAAAABI/vdAtEOrzWXs/s1600/escudo_gdl.png");
+}
+
+/* unvisited link */
+a:link {
+    color: #647378;
+}
+
+/* visited link */
+a:visited {
+    color: #647378;
+}
+
+/* mouse over link */
+a:hover {
+    color: #858585;
+}
+
+/* selected link */
+a:active {
+    color: #12223D;
+    font-size: 22px;
 }
 
 body{
   font-family: helvetica;
   font-size: 1.5em;
-  color: #CDD627;
+  background-image: url("http://img00.deviantart.net/bbfa/i/2015/068/1/e/gdlcitybackground_by_darkwolf003-d8l365o.png"); 
+  background-repeat:repeat-x;
+  background-attachment: fixed;
 }
 
 .center{
